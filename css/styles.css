@@ -13,9 +13,10 @@ ul,ol {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -32,25 +33,17 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.link {
+    color: #2e2f42;
+}
+
 .up-list .link:hover,
 .up-list .link:active {
     color: #404bbf;
     text-decoration: none;
 } 
 
-.up-list .link-sec:hover,
-.up-list .link-sec:active {
-    color: #404bbf;
-    text-decoration: none;
-}
-
-.up-list .link-third:hover,
-.up-list .link-third:active {
-    color: #404bbf;
-    text-decoration: none;
-}
-
-.info-list .send {
+.send {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -58,29 +51,37 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.info-list .call {
+.call {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
     color: #434455;
 }
 
-.info-list .send:hover,
-.info-list .send:active {
+.send:hover,
+.send:active {
     color: #404bbf;
 }
 
-.info-list .call:hover,
-.info-list .call:active {
+.call:hover,
+.call:active {
     font-weight: 400;
     color: #404bbf;
+}
+
+.address-name {
+    font-style: normal;
 }
 
 .first {
     background-color: #2e2f42;
 }
 
-h1 {
+.name-first {
     font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -136,9 +137,10 @@ color: #434455;
 .fourth-name {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 
@@ -163,11 +165,17 @@ button {
     background-color: #4d5ae5;
 }
 .but-ton {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+}
+
+.but-ton:hover,
+.but-ton:focus {
+    background-color: #404BBF;
 }
 
 .third {
@@ -177,9 +185,10 @@ color: #fff;
 .third-name {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 .bottom {
@@ -188,7 +197,7 @@ color: #2e2f42;
 .logo-part-bottom {
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
