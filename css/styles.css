@@ -133,6 +133,15 @@ text-align: center;
 color: #434455;
 }
 
+.fourth-name {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
 .fourth-heading {
     font-weight: 500;
 font-size: 20px;
@@ -165,12 +174,14 @@ color: #fff;
     background-color: #f4f4fd;
 }
 
-.third .name .mark {
-background-color: #fff;
+.third-name {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
-
-
-
 .bottom {
     background-color: #2e2f42;
 }
