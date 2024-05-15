@@ -47,7 +47,7 @@ color: #2e2f42;
 }
 
 .up-list .link:hover,
-.up-list .link:active {
+.up-list .link:focus {
     color: #404bbf;
     text-decoration: none;
 } 
@@ -69,13 +69,7 @@ letter-spacing: 0.02em;
 }
 
 .send:hover,
-.send:active {
-    color: #404bbf;
-}
-
-.call:hover,
-.call:active {
-    font-weight: 400;
+.send:focus {
     color: #404bbf;
 }
 
